@@ -9,3 +9,27 @@
 h1, h2, h3, p {
     font-family: 'Open Sans', sans-serif;
 }
+
+.background-img {
+    width: 100%;
+    background-image: url(assets/img/fundo.jfif);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    max-width: 1170px;
+}
+
+.container-line {
+    height: 100%;
+    border: 0.5px solid rgba(0, 0, 0, 0.164);
+}
+
+.primary {
+    color: rgb(67, 134, 223);
+}
+.bold {
+    font-weight: 700!important;
+}

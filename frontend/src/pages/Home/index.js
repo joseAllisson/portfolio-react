@@ -45,12 +45,11 @@ const cards = [
 
 function Home() {
     return (
-        <>
+        <div>
             <Header />
-
             <main className="background-img">
                 <section className="container bg-white p-3">
-                    <div className="gallery">
+                    <div className="container-line">
                         <div className="row p-4">
                             {cards.map((card) =>
                                 <div className="col-md-6 mt-4" key={card.id}>
@@ -74,10 +73,8 @@ function Home() {
                     </div>
                 </section>
             </main>
-
             <Footer />
-
-        </>
+        </div>
     );
 }
 

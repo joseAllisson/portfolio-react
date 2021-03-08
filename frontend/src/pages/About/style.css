@@ -1,0 +1,10 @@
+p.common {
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+.profile-title {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #4d4d4d!important;
+}

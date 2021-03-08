@@ -1,20 +1,3 @@
-.background-img {
-    width: 100%;
-    background-image: url(../../assets/img/fundo.jfif);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-.container {
-    max-width: 1170px;
-}
-
-.gallery {
-    height: 100%;
-    border: 0.5px solid rgba(0, 0, 0, 0.164);
-}
-
 .img {
     width: 100%;
     height: 300px;

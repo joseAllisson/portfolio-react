@@ -17,7 +17,7 @@ function Header() {
                     <img src={Profile} alt="Jose Alisson" className="profile-img" />
 
                     <div className="description-profile">
-                        <h1 className="profile-title">José Alisson Bezerra</h1>
+                        <h1>José Alisson Bezerra</h1>
                         <p>Portfólio</p>
                     </div>
                 </div>

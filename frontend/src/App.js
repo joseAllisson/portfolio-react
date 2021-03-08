@@ -8,6 +8,7 @@ import Home from './pages/Home';
 
 import './global.css';
 import About from './pages/About';
+import Contact from './pages/contact';
 
 function App() {
   return (
@@ -20,6 +21,10 @@ function App() {
         
         <Route path="/sobre">
             <About />
+        </Route>
+
+        <Route path="/contato">
+            <Contact />
         </Route>
 
       </Switch>
