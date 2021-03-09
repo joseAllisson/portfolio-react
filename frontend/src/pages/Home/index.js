@@ -1,6 +1,7 @@
-import React from 'react';
-import Footer from '../../components/Footer';
+import React from 'react'
 
+import Footer from '../../components/Footer';
+import Card from '../../components/Card';
 import Header from '../../components/Header/';
 
 import './style.css';
@@ -47,32 +48,21 @@ function Home() {
     return (
         <div>
             <Header />
+
             <main className="background-img">
                 <section className="container bg-white p-3">
                     <div className="container-line">
+                        {/* <h2 className="primary bold text-center">Portfólio</h2>
+                        <hr /> */}
                         <div className="row p-4">
                             {cards.map((card) =>
-                                <div className="col-md-6 mt-4" key={card.id}>
-                                    <div style={{ backgroundImage: `url(./img/bg/${card.img})` }} className="img">
-                                        <div className="overlay-img"></div>
-                                        <div className="animation-description">
-                                            <h2>{card.title}</h2>
-                                            <p>{card.description}</p>
-                                            <span className="icons">
-                                                <button className="icon fas fa-eye border-0"
-                                                    onClick={() => {
-                                                        window.open(card.link, '_blank');
-                                                    }}
-                                                ></button>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
+                                <Card card={card} key={card.id}/>
                             )}
                         </div>
                     </div>
                 </section>
             </main>
+            
             <Footer />
         </div>
     );

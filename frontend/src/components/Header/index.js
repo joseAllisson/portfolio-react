@@ -23,13 +23,10 @@ function Header() {
                 </div>
             </section>
 
-            <section className="d-flex justify-content-center align-items-center nav-shadow bg-white">
+            <section className="navigation nav-shadow bg-white">
 
                 <nav className="navbar-expand-lg navbar-light bg-white">
-                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon" />
-                    </button>
-                    <div className="collapse navbar-collapse" id="navbarNavDropdown">
+                    <div className="navbar-collapse">
                         <ul className="navbar-nav">
                             <li className={path === "/sobre" ? "active nav-item" : "nav-item"}>
                                 <NavLink className="nav-link p-3" to="/sobre">SOBRE</NavLink>

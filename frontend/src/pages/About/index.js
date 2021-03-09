@@ -15,7 +15,7 @@ function About() {
 
             <main className="background-img">
                 <section className="container bg-white p-3">
-                    <div className="container-line p-lg-5 p-2">
+                    <div className="container-line p-lg-4 p-2">
                         <section>
                             <h2 className="primary bold text-center">Sobre</h2>
                             <hr />
@@ -23,8 +23,6 @@ function About() {
                                 <h2 className="secondary text-center py-2">
                                     Desenvolvedor <Typist sentences={['Front-end', 'Back-end', "Full Stack"]} loop={true} pauseTime={2000}/>
                                 </h2>
-                                
-
                                 <div className="col-md-6 d-flex justify-content-center">
                                     <img src={Profile} alt="Jose Alisson Bezerra" />
                                 </div>
@@ -38,7 +36,7 @@ function About() {
                         <hr />
                         <section className="pt-2">
                             <h3 className="h2 primary bold text-center">Formação</h3>
-                            <div className="row p-5">
+                            <div className="row p-lg-5 p-2">
                                 <div className="col-md-6 d-flex flex-column justify-content-around text-center">
                                     <h3 className="profile-title">Ensino médio</h3>
                                     <p className="common text-center">
@@ -61,7 +59,7 @@ function About() {
                         </section>
                         <section className="pt-2">
                             <h3 className="h2 primary bold text-center">Cursos</h3>
-                            <div className="row p-5">
+                            <div className="row p-lg-5 p-2">
                                 <div className="col-md-6 d-flex flex-column justify-content-around text-center">
                                     <h3 className="profile-title">Operador de microcomputador</h3>
                                     <p className="common text-center">

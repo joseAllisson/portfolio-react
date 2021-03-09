@@ -28,6 +28,12 @@
     font-size: 1.2rem;
 }
 
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .nav-shadow {
     position: relative;
     z-index: 999;
