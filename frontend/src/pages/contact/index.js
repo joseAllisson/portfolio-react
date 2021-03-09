@@ -12,7 +12,7 @@ function Contact() {
 
             <main className="background-img">
                 <section className="container bg-white p-3">
-                    <div className="container-line p-5">
+                    <div className="container-line p-lg-5 p-2">
                         <section className="contact">
                             <h2 className="primary bold text-center">Contato</h2>
                             <hr />

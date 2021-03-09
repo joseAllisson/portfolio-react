@@ -4,11 +4,13 @@ import {
   Switch,
   Route,
 } from 'react-router-dom';
-import Home from './pages/Home';
 
-import './global.css';
+import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/contact';
+import Error from './pages/Error';
+
+import './global.css';
 
 function App() {
   return (
@@ -25,6 +27,10 @@ function App() {
 
         <Route path="/contato">
             <Contact />
+        </Route>
+
+        <Route path="*">
+            <Error /> 
         </Route>
 
       </Switch>

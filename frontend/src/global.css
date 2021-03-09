@@ -30,6 +30,16 @@ h1, h2, h3, p {
 .primary {
     color: rgb(67, 134, 223);
 }
+
+.secondary {
+    color: #4d4d4d;
+}
+
 .bold {
     font-weight: 700!important;
 }
+
+.myTypist {
+    font-size: 2.5rem;
+}
+  

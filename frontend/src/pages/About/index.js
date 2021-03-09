@@ -1,4 +1,5 @@
 import React from 'react';
+import Typist from 'react-text-typist';
 
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
@@ -14,11 +15,16 @@ function About() {
 
             <main className="background-img">
                 <section className="container bg-white p-3">
-                    <div className="container-line p-5">
+                    <div className="container-line p-lg-5 p-2">
                         <section>
                             <h2 className="primary bold text-center">Sobre</h2>
                             <hr />
-                            <div className="row p-5">
+                            <div className="row p-lg-5" >
+                                <h2 className="secondary text-center py-2">
+                                    Desenvolvedor <Typist sentences={['Front-end', 'Back-end', "Full Stack"]} loop={true} pauseTime={2000}/>
+                                </h2>
+                                
+
                                 <div className="col-md-6 d-flex justify-content-center">
                                     <img src={Profile} alt="Jose Alisson Bezerra" />
                                 </div>
