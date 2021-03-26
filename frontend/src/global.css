@@ -1,63 +1,70 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 ::-webkit-scrollbar {
-    width: 10px;
+  width: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #4386DF;
-    border-radius: 10px;
+  background-color: #4386df;
+  border-radius: 10px;
 }
 
 ::-webkit-scrollbar-track {
-    background-color: #111;
+  background-color: #111;
 }
 
-h1, h2, h3, p {
-    font-family: 'Open Sans', sans-serif;
+h1,
+h2,
+h3,
+p {
+  font-family: "Open Sans", sans-serif;
 }
 
 .background-img {
-    width: 100%;
-    background-image: url(assets/img/fundo.jfif);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+  width: 100%;
+  background-image: url(assets/img/fundo.jfif);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .container {
-    max-width: 1170px;
+  max-width: 1170px;
 }
 
 .container-line {
-    height: 100%;
-    border: 0.5px solid rgba(0, 0, 0, 0.164);
+  height: 100%;
+  border: 0.5px solid rgba(0, 0, 0, 0.164);
 }
 
 .primary {
-    color: rgb(67, 134, 223);
+  color: rgb(67, 134, 223);
 }
 
 .secondary {
-    color: #4d4d4d;
+  color: #4d4d4d;
 }
 
 .bold {
-    font-weight: 700!important;
+  font-weight: 700 !important;
 }
 
 .myTypist {
-    font-size: 2.5rem;
+  font-size: 2.5rem;
 }
-  
-@media (max-width:767px) {
-    .myTypist {
-        font-size: 1.5rem;
-    }
+
+@media (max-width: 767px) {
+  .myTypist {
+    font-size: 1.5rem;
+  }
 }

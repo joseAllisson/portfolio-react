@@ -1,18 +1,22 @@
 import React from 'react';
-import { NavLink, useLocation } from 'react-router-dom';
+import { Link, NavLink, useLocation } from 'react-router-dom';
 
 import Profile from '../../assets/img/perfil.png';
 
 import "./style.css";
 
 function Header() {
-    
+
     let location = useLocation();
     let path = location.pathname;
 
     return (
         <header>
             <section className="header d-flex justify-content-center align-items-center">
+                <Link to="/cv" target="_blank" className="btn btn-docs" title="Currículo PDF">
+                    <i class="far fa-file-alt"></i>
+                </Link>
+
                 <div>
                     <img src={Profile} alt="Jose Alisson" className="profile-img" />
 

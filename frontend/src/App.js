@@ -11,6 +11,7 @@ import Contact from './pages/contact';
 import Error from './pages/Error';
 
 import './global.css';
+import CV from './pages/CV';
 
 const Home = React.lazy(() => import('./pages/Home'));
 
@@ -32,6 +33,10 @@ function App() {
 
         <Route path="/contato">
             <Contact />
+        </Route>
+
+        <Route path="/cv">
+            <CV />
         </Route>
 
         <Route path="*">

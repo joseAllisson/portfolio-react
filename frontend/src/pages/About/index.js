@@ -21,7 +21,7 @@ function About() {
                             <hr />
                             <div className="row p-lg-5" >
                                 <h2 className="secondary text-center py-2">
-                                    Desenvolvedor <Typist sentences={['Front-end', 'Back-end', "Full Stack"]} loop={true} pauseTime={2000}/>
+                                    Desenvolvedor <Typist sentences={['Front-end', 'Back-end', "Full Stack"]} loop={true} pauseTime={2000} />
                                 </h2>
                                 <div className="col-md-6 d-flex justify-content-center">
                                     <img src={Profile} alt="Jose Alisson Bezerra" />
@@ -80,6 +80,7 @@ function About() {
                                 </div>
                             </div>
                         </section>
+
                     </div>
                 </section>
             </main>
