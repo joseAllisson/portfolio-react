@@ -13,9 +13,13 @@ function Header() {
     return (
         <header>
             <section className="header d-flex justify-content-center align-items-center">
-                <Link to="/cv" target="_blank" className="btn btn-docs" title="Currículo PDF">
-                    <i class="far fa-file-alt"></i>
+                <Link to="/cv" target="_blank" className="btn btn-header btn-docs" title="Currículo PDF">
+                    <i className="far fa-file-alt"></i>
                 </Link>
+
+                <a href="#section" className="btn btn-header btn-arrow-bottom">
+                    <i className="far fa-arrow-down"></i>
+                </a>
 
                 <div>
                     <img src={Profile} alt="Jose Alisson" className="profile-img" />
@@ -27,7 +31,7 @@ function Header() {
                 </div>
             </section>
 
-            <section className="navigation nav-shadow bg-white">
+            <section className="navigation nav-shadow bg-white" id="section">
 
                 <nav className="navbar-expand-lg navbar-light bg-white">
                     <div className="navbar-collapse">

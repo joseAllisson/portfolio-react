@@ -68,7 +68,8 @@
   width: 100%;
 }
 
-.btn-docs {
+.btn-header {
+  min-width: 57px;
   padding: 8px 16px;
   border-radius: 100%;
   font-size: 1.5rem;
@@ -76,20 +77,44 @@
   background-color: white;
   border: 2px solid #4386df;
   position: absolute;
-  top: 10%;
-  right: -30%;
 
-  animation: btn-docs 1s forwards;
+  animation: btn-header 1s forwards;
 }
 
-.btn-docs:hover {
+.btn-header:hover {
   color: white;
   background-color: #4386df;
 }
 
-@keyframes btn-docs {
+.btn-docs {
+  top: 10%;
+  right: -30%;
+}
+
+.btn-arrow-bottom {
+  top: 20%;
+  right: 100%;
+}
+
+@media (max-width: 768px) {
+  .btn-arrow-bottom {
+    top: 10%;
+    left: -30%;
+    animation: btn-header-mobile 1s forwards;
+  }
+}
+
+@keyframes btn-header {
   100% {
     transform: rotate(360deg);
     right: 10%;
+  }
+}
+
+@keyframes btn-header-mobile {
+  100% {
+    transform: rotate(360deg);
+    top: 10%;
+    left: 10%;
   }
 }
